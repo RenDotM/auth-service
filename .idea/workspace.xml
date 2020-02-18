@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbbcbeef-8b91-4fcb-aa9a-caeb7adbaa42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/databaseFactory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/memoryDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mongoDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +30,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XxUilnOzCkTKBEb2AnyhYajVoE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -47,11 +67,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581987368931</updated>
-      <workItem from="1581987370817" duration="252000" />
+      <workItem from="1581987370817" duration="7511000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1512" y="171" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1581998653455">
+      <screen x="0" y="23" width="2560" height="1323" />
+    </state>
+    <state x="1512" y="171" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.2560.1323@0.23.2560.1323" timestamp="1581998653455" />
+    <state x="1398" y="128" key="SettingsEditor" timestamp="1581998942056">
+      <screen x="0" y="23" width="2560" height="1323" />
+    </state>
+    <state x="1398" y="128" key="SettingsEditor/0.23.2560.1323@0.23.2560.1323" timestamp="1581998942056" />
+    <state x="1555" y="125" width="819" height="729" key="find.popup" timestamp="1581998657756">
+      <screen x="0" y="23" width="2560" height="1323" />
+    </state>
+    <state x="1555" y="125" width="819" height="729" key="find.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1581998657756" />
+    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup" timestamp="1581998884653">
+      <screen x="0" y="23" width="2560" height="1323" />
+    </state>
+    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1581998884653" />
   </component>
 </project>
