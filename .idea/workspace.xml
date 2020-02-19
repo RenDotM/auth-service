@@ -4,11 +4,11 @@
     <list default="true" id="cbbcbeef-8b91-4fcb-aa9a-caeb7adbaa42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/databaseFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/databaseFactory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/memoryDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/memoryDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/mongoDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mongoDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581987368931</updated>
-      <workItem from="1581987370817" duration="12775000" />
+      <workItem from="1581987370817" duration="23024000" />
+      <workItem from="1582133176834" duration="97000" />
     </task>
     <servers />
   </component>
@@ -75,6 +76,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1630" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582084047310">
+      <screen x="0" y="23" width="2560" height="1323" />
+    </state>
+    <state x="1630" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1323@0.23.2560.1323" timestamp="1582084047310" />
     <state x="1512" y="171" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1581998653455">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
@@ -83,27 +88,30 @@
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
     <state x="1398" y="128" key="SettingsEditor/0.23.2560.1323@0.23.2560.1323" timestamp="1581998942056" />
-    <state x="199" y="253" width="1078" height="913" key="dock-window-1" timestamp="1582080468320">
+    <state x="1016" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582129879331">
+      <screen x="0" y="23" width="2560" height="1323" />
+    </state>
+    <state x="1016" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1323@0.23.2560.1323" timestamp="1582129879331" />
+    <state x="182" y="95" width="1078" height="683" key="dock-window-1" timestamp="1582083157910">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
     <state x="199" y="23" width="1078" height="913" key="dock-window-1/0.23.1680.941@0.23.1680.941" timestamp="1582068182314" />
-    <state x="199" y="253" width="1078" height="913" key="dock-window-1/0.23.2560.1323@0.23.2560.1323" timestamp="1582080468320" />
-    <state x="1555" y="125" width="819" height="729" key="find.popup" timestamp="1582082181645">
+    <state x="182" y="95" width="1078" height="683" key="dock-window-1/0.23.2560.1323@0.23.2560.1323" timestamp="1582083157910" />
+    <state x="1555" y="125" width="837" height="729" key="find.popup" timestamp="1582132092405">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state x="1555" y="125" width="819" height="729" key="find.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1582082181645" />
-    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup" timestamp="1582065963646">
+    <state x="1555" y="125" width="837" height="729" key="find.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1582132092405" />
+    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup" timestamp="1582133132413">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1582065963646" />
+    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1582133132413" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/memoryDB.js</url>
-          <line>25</line>
-          <properties lambdaOrdinal="-1" />
+          <line>24</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
