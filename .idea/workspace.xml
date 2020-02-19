@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbbcbeef-8b91-4fcb-aa9a-caeb7adbaa42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/databaseFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/memoryDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mongoDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/databaseFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/databaseFactory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/memoryDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/memoryDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mongoDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mongoDB.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581987368931</updated>
-      <workItem from="1581987370817" duration="7511000" />
+      <workItem from="1581987370817" duration="12775000" />
     </task>
     <servers />
   </component>
@@ -86,13 +83,30 @@
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
     <state x="1398" y="128" key="SettingsEditor/0.23.2560.1323@0.23.2560.1323" timestamp="1581998942056" />
-    <state x="1555" y="125" width="819" height="729" key="find.popup" timestamp="1581998657756">
+    <state x="199" y="253" width="1078" height="913" key="dock-window-1" timestamp="1582080468320">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state x="1555" y="125" width="819" height="729" key="find.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1581998657756" />
-    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup" timestamp="1581998884653">
+    <state x="199" y="23" width="1078" height="913" key="dock-window-1/0.23.1680.941@0.23.1680.941" timestamp="1582068182314" />
+    <state x="199" y="253" width="1078" height="913" key="dock-window-1/0.23.2560.1323@0.23.2560.1323" timestamp="1582080468320" />
+    <state x="1555" y="125" width="819" height="729" key="find.popup" timestamp="1582082181645">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1581998884653" />
+    <state x="1555" y="125" width="819" height="729" key="find.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1582082181645" />
+    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup" timestamp="1582065963646">
+      <screen x="0" y="23" width="2560" height="1323" />
+    </state>
+    <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1582065963646" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/memoryDB.js</url>
+          <line>25</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
