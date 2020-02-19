@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbbcbeef-8b91-4fcb-aa9a-caeb7adbaa42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/postman/User.postman_collection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/mongoDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mongoDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581987368931</updated>
       <workItem from="1581987370817" duration="23024000" />
-      <workItem from="1582133176834" duration="863000" />
+      <workItem from="1582133176834" duration="1413000" />
     </task>
     <servers />
   </component>
