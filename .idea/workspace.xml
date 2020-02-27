@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cbbcbeef-8b91-4fcb-aa9a-caeb7adbaa42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/databaseFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/databaseFactory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mongoDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mongoDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,19 +88,19 @@
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
     <state x="1398" y="128" key="SettingsEditor/0.23.2560.1323@0.23.2560.1323" timestamp="1581998942056" />
-    <state x="1016" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582129879331">
+    <state x="1016" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582773851341">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state x="1016" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1323@0.23.2560.1323" timestamp="1582129879331" />
-    <state x="182" y="95" width="1078" height="683" key="dock-window-1" timestamp="1582083157910">
+    <state x="1016" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1323@0.23.2560.1323" timestamp="1582773851341" />
+    <state x="0" y="704" width="1173" height="684" key="dock-window-1" timestamp="1582774936055">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
     <state x="199" y="23" width="1078" height="913" key="dock-window-1/0.23.1680.941@0.23.1680.941" timestamp="1582068182314" />
-    <state x="182" y="95" width="1078" height="683" key="dock-window-1/0.23.2560.1323@0.23.2560.1323" timestamp="1582083157910" />
-    <state x="1555" y="125" width="837" height="729" key="find.popup" timestamp="1582137463135">
+    <state x="0" y="704" width="1173" height="684" key="dock-window-1/0.23.2560.1323@0.23.2560.1323" timestamp="1582774936055" />
+    <state x="1555" y="125" width="837" height="729" key="find.popup" timestamp="1582777041217">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
-    <state x="1555" y="125" width="837" height="729" key="find.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1582137463135" />
+    <state x="1555" y="125" width="837" height="729" key="find.popup/0.23.2560.1323@0.23.2560.1323" timestamp="1582777041217" />
     <state x="1561" y="227" width="670" height="676" key="search.everywhere.popup" timestamp="1582134163943">
       <screen x="0" y="23" width="2560" height="1323" />
     </state>
@@ -110,6 +113,18 @@
           <url>file://$PROJECT_DIR$/lib/memoryDB.js</url>
           <line>24</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/user.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/mongoDB.js</url>
+          <line>45</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

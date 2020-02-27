@@ -9,5 +9,9 @@ router.get("/", user_controller.get_all_users);
 router.get("/:id", user_controller.get_user_by_id);
 router.put("/:id", user_controller.update_user);
 router.delete("/:id", user_controller.delete_user_by_id);
+router.post("/login", user_controller.login);
+// router.get("/me"), user_controller.get_user_profile);
+// router.post("/logout"), user_controller.logout);
+// router.post("/logoutall"), user_controller.logout_all);
 
 module.exports = router;
