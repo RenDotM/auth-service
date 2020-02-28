@@ -1,5 +1,4 @@
 // include product model
-const User = require("../models/user");
 const db = require("../lib/databaseFactory");
 
 
@@ -32,6 +31,6 @@ exports.login = async (req, res) => {
   db.login(req, res);
 };
 
-exports.get_user_profile = async (req, res) => {};
-exports.logout = async (req, res) => {};
-exports.logout_all = async (req, res) => {};
+// exports.get_user_profile = async (req, res) => {};
+// exports.logout = async (req, res) => {};
+// exports.logout_all = async (req, res) => {};
