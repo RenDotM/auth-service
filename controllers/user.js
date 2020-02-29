@@ -40,5 +40,5 @@ exports.get_user_profile = async (req, res) => {
 };
 
 exports.logout_all = async (req, res) => {
-  db.logout_all
+  db.logout_all(req, res);
 };

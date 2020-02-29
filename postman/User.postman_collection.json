@@ -42,7 +42,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"user_id\": \"2\",\n    \"username\": \"ck43789@gmail.com\",\n    \"password\": \"abc123\",\n    \"tenants\": [\n  \n    ]\n}",
+					"raw": "{\n    \"username\": \"ck43789@gmail.com\",\n    \"password\": \"abc1234567\",\n    \"tenants\": [\n  \n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -232,8 +232,195 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e392e5c8-2710-4458-9c89-934acc7321ae",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Successfully get the user\", function () {",
+							"    var jsonData = pm.response.json();",
+							"",
+							"    if (jsonData.token){",
+							"        pm.environment.set(\"token\", jsonData.token);",
+							"    }",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"ck43789@gmail.com\",\n    \"password\": \"abc1234567\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:{{userPort}}/users/login",
+					"host": [
+						"localhost"
+					],
+					"port": "{{userPort}}",
+					"path": [
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete User by Id Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ec52b186-5cb1-459d-b768-58db74c77b07",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Successfully delete the user\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.success).to.eql(true);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:{{userPort}}/users/{{userId}}",
+					"host": [
+						"localhost"
+					],
+					"port": "{{userPort}}",
+					"path": [
+						"users",
+						"{{userId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:{{userPort}}/users/me",
+					"host": [
+						"localhost"
+					],
+					"port": "{{userPort}}",
+					"path": [
+						"users",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:{{userPort}}/users/me/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "{{userPort}}",
+					"path": [
+						"users",
+						"me",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout all",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:{{userPort}}/users/me/logoutall",
+					"host": [
+						"localhost"
+					],
+					"port": "{{userPort}}",
+					"path": [
+						"users",
+						"me",
+						"logoutall"
+					]
+				}
+			},
+			"response": []
 		}
 	],
+	"auth": {
+		"type": "bearer"
+	},
 	"event": [
 		{
 			"listen": "prerequest",
