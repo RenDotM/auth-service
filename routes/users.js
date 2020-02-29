@@ -16,4 +16,3 @@ router.post("/me/logout", auth, user_controller.logout);
 router.post("/me/logoutall", auth, user_controller.logout_all);
 
 module.exports = router;
-
