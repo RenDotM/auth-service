@@ -31,6 +31,14 @@ exports.login = async (req, res) => {
   db.login(req, res);
 };
 
-// exports.get_user_profile = async (req, res) => {};
-// exports.logout = async (req, res) => {};
-// exports.logout_all = async (req, res) => {};
+exports.logout = async (req, res) => {
+  db.logout(req, res);
+};
+
+exports.get_user_profile = async (req, res) => {
+  db.get_user_profile(req, res);
+};
+
+exports.logout_all = async (req, res) => {
+  db.logout_all
+};
