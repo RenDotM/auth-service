@@ -14,5 +14,5 @@ router.post("/login", user_controller.login);
 router.get("/me", auth, user_controller.get_user_profile);
 router.post("/me/logout", auth, user_controller.logout);
 router.post("/me/logoutall", auth, user_controller.logout_all);
-
+router.post("/:id/houses", auth, user_controller.get_all_houses_by_id)
 module.exports = router;
