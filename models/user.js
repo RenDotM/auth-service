@@ -1,7 +1,7 @@
-const mongoose = require("mongoose");
-const validator = require("validator");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
+const mongoose = require('mongoose');
+const validator = require('validator');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 
 const userSchema = mongoose.Schema({
   username: {
@@ -11,7 +11,7 @@ const userSchema = mongoose.Schema({
     lowercase: true,
     validate: value => {
       if (!validator.isEmail(value)) {
-        throw new Error({ error: "Invalid Email address" });
+        throw new Error({ error: 'Invalid Email address' });
       }
     }
   },
@@ -28,13 +28,13 @@ const userSchema = mongoose.Schema({
       }
     }
   ],
-  tenants: [{ type: mongoose.Types.ObjectId, ref: "User" }]
+  tenants: [{ type: mongoose.Types.ObjectId, ref: 'User' }]
 });
 
-userSchema.pre("save", async function(next) {
+userSchema.pre('save', async function(next) {
   // Hash the password before saving the user model
   const user = this;
-  if (user.isModified("password")) {
+  if (user.isModified('password')) {
     user.password = await bcrypt.hash(user.password, 8);
   }
   next();
@@ -53,15 +53,15 @@ userSchema.statics.findByCredentials = async (username, password) => {
   // Search for a user by email and password.
   const user = await User.findOne({ username });
   if (!user) {
-    throw new Error({ error: "Invalid login credentials" });
+    throw new Error({ error: 'Invalid login credentials' });
   }
   const isPasswordMatch = await bcrypt.compare(password, user.password);
   if (!isPasswordMatch) {
-    throw new Error({ error: "Invalid login credentials" });
+    throw new Error({ error: 'Invalid login credentials' });
   }
   return user;
 };
 
-const User = mongoose.model("User", userSchema);
+const User = mongoose.model('User', userSchema);
 
 module.exports = User;

@@ -1,5 +1,5 @@
 // include product model
-const db = require("../lib/databaseFactory");
+const db = require('../lib/databaseFactory');
 
 // create a new user.
 exports.create_user = async (req, res) => {
@@ -43,5 +43,5 @@ exports.logout_all = async (req, res) => {
 };
 
 exports.get_all_houses_by_id = async (req, res) => {
-  db.get_all_houses_by_id(req, res)
-}
+  db.get_all_houses_by_id(req, res);
+};
