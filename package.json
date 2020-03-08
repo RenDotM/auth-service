@@ -15,7 +15,7 @@
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.5.4",
-    "mongoose": "^5.9.2",
+    "mongoose": "^5.9.3",
     "morgan": "~1.9.1",
     "validator": "^12.2.0"
   },
